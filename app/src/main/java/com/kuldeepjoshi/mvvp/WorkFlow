@@ -1,0 +1,11 @@
+Steps to remember while creating MVVM design pattern
+
+
+1. Create various packages like data, ui, utils and module names
+2. Create model class of an objects (Quote)
+3. Create DAO (Data Access Object) class (FakeQuoteDao)
+4. Create Database (FakeDataBase)
+5. Create Repository - Point of contact class(QuoteRepository)
+6. Create ViewModel (QuotesViewModel)
+7. Create ViewModelFactory (QuotesViewModelFactory)
+8. Create InjectorUtils object which connects UI to the ViewModel(InjectorUtils)
